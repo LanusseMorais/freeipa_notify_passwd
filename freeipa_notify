@@ -1,2 +1,2 @@
 #!/bin/bash
-/opt/freeipa_notify_passwd/freeipa_notify.py -C ipa_config.ini 
+/opt/freeipa_notify_passwd/freeipa_notify.py -C /opt/freeipa_notify_passwd/freeipa_notify.py/ipa_config.ini 
