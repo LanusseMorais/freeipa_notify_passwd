@@ -24,7 +24,7 @@ def parse_config(cliargs):
     ipa_user = config['Login']['user']
     ipa_password = config['Login']['password']
     ipa_hostname = config['Login']['hostname']
-    ipa_notify_days_remaining = config['Option']['notify_days_remaining']
+    ipa_notify_days_remaining = int(config['Option']['notify_days_remaining'])
     ipa_email_from = config['Option']['email_from']
     ipa_email_subject = config['Option']['email_subject']
     ipa_email_body = config['Option']['email_body'] 
